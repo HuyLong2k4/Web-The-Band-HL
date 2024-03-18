@@ -1,0 +1,76 @@
+
+/* Moblie */
+/* overflow : hidden: khi thằng con lộ ra thằng cha thì ẩn đi  */
+@media only screen and (max-width: 46.1875em) {
+    #header {
+        overflow: hidden;
+    }
+    #header .mobile-menu{
+        display: block;
+    }
+    #header .search {
+        display: none;
+    }
+    #nav li {
+        display: block;
+    }
+    #nav li a{
+        display: block;
+    }
+    #nav {
+        display: block;
+    }
+    #nav .subnav {
+        position: initial;
+        background: #333;
+    }
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+   #content .member-mobi{
+        margin-top: 30px;
+        width: 100%;
+   } 
+   #content .member-img {
+        width: 60%;
+   }
+   .places-list .column-third{
+        width: 100%;
+   } 
+   .column-half {
+        width: 100%;
+        padding-top: 8px;
+   }
+   .form-submit-bth {
+    width: 100%;
+   }
+   .place-buy {
+    width: 100%;
+   }
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    #footer .socials-list {
+        font-size: 48px;
+    }
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+    #footer .copyright {
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+
+/* PC */
+
+@media only screen and (min-width: 64em) {
+
+}
+
+/*  */
+
